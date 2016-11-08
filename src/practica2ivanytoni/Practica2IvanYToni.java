@@ -5,17 +5,17 @@
  */
 package practica2ivanytoni;
 
+import java.util.Scanner;
+
 /**
  *
  * @author daw
  */
-public class Practica2IvanYToni {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Practica2IvanYToni {    
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Introduse numéro:\t");
+        int n=sc.nextInt();
+        System.out.print("AL IBAN LE HUELE EL COÑO A LEÑA o"+n+".");
+    }   
 }
